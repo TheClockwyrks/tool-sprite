@@ -1,9 +1,9 @@
 //! F-curves: keyframes and how a value is interpolated between them.
 //!
-//! This mirrors the F-curve model the voxel/mesh animation tools use (see
-//! `crates/model-core/src/rig.rs` and the
-//! [F-curves](../../apps/docs/src/content/docs/testing/asset-generation/voxel-binaries.md)
-//! docs) so a model that has learned one animation vocabulary in this repository
+//! This mirrors the F-curve model the voxel/mesh animation tools use (see the
+//! `model-core` crate's `rig.rs` and the
+//! [F-curves](https://docs.testcabinet.ai/testing/asset-generation/voxel-binaries/#f-curves)
+//! docs) so a model that has learned one animation vocabulary in The Test Cabinet
 //! already knows this one: each keyframe's [`Interp`] describes the segment
 //! **leaving** it, `bezier` is shaped by tangent handles, and the easing presets
 //! expand to standard handles.

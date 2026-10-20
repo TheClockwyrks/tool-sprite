@@ -1,0 +1,10 @@
+# The answers this repository was rendered with and the superrepo commit its
+# kit was last rendered or updated from. Copier maintains it through the
+# superrepo's scripts/repos/render.py; a change made here is overwritten by
+# the next update.
+_commit: v0.6.3-5175-gac35ab83c
+_src_path: ..
+description: 'The sprite drawing tool: the draw and draw-sheet binaries a run image
+    carries, and the library the driver regenerates a drawing with.'
+kind: tool
+name: tool-sprite

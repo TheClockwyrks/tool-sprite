@@ -5,7 +5,7 @@
 //! library has a hard requirement that floating point cannot meet: the image
 //! `crates/driver` regenerates after a run must be **bit-identical** to the one the
 //! in-container binary rendered, or the difference registers as
-//! [cheat divergence](../../apps/docs/src/content/docs/testing/asset-generation/evaluation.md).
+//! [cheat divergence](https://docs.testcabinet.ai/testing/asset-generation/evaluation/#cheat-detection).
 //! Container and host are separate builds, and `sin`/`cos` are not guaranteed
 //! identical across libm implementations — a one-ULP disagreement is enough to move
 //! a nearest-neighbour sample by a pixel and manufacture a phantom divergence.
